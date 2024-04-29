@@ -19,8 +19,8 @@ namespace UPJV\Validator;
 
 /**
  * Vérifie que la taille de la chaine comporte au moins x caractères
- *  - x fixé par la méthode setMin
- *  - x = 3 par défaut (3 caractères minimum)
+ *  - x fixé par la méthode setValue
+ *  - x = 10 par défaut
  */
 class SuperieurA2 extends AbstractValidator
 {
@@ -38,7 +38,7 @@ class SuperieurA2 extends AbstractValidator
     public function __construct()
     {
         parent::__construct();
-        $this->x = 3;
+        $this->x = 10;
         $this->flag = null;
         $this->data = null;
     }
@@ -64,7 +64,7 @@ class SuperieurA2 extends AbstractValidator
     public function verifie($value)
     {
         $this->data = $value;
-        if (strlen($value) < $this->x) {
+        if ($value < $this->x) {
             return $this->flag = false;
         }
 

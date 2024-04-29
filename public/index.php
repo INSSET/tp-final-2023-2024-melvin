@@ -10,7 +10,7 @@
     TP final (8pts)
 </div>
 <div class="p-3 list-group text-center">
-    <a href="#" class="list-group-item list-group-item-action active" aria-current="true"><b>LISTES DES EXEMPLES DE VALIDATEUR</b></a>
+<a href="#" class="list-group-item list-group-item-action active" aria-current="true"><b>LISTES DES EXEMPLES DE VALIDATEUR</b></a>
     <a href="forms/min_long.php" class="list-group-item list-group-item-action">Exemple Validateur de la longueur minimale d'une chaîne de caractère <i>(Harold Trannois)</i></a>
     <a href="forms/Identique_A.php" class="list-group-item list-group-item-action">Exemple Validateur d'Identicité de chaîne de charactère<i>(Armand Vanderhoeven)</i></a>
     <a href="forms/avant_date.php" class="list-group-item list-group-item-action">Exemple Validateur d'une date antérieur <i>(Théo RAYMOND)</i></a>

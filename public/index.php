@@ -10,9 +10,11 @@
     TP final (8pts)
 </div>
 <div class="p-3 list-group text-center">
-    <a href="#" class="list-group-item list-group-item-action active" aria-current="true"><b>LISTES DES EXEMPLES DE VALIDATEUR</b></a>
-    <a href="forms/min_long.php" class="list-group-item list-group-item-action"> Validateur de la longueur minimale d'une chaîne de caractère <i>(Harold Trannois)</i></a>
-    <a href="forms/nbr_Reponse_Min.php" class="list-group-item list-group-item-action">Exemple Validateur du nombre minimale de case à cocher <i>(Hugo Dufour)</i></a>
+<a href="#" class="list-group-item list-group-item-action active" aria-current="true"><b>LISTES DES EXEMPLES DE VALIDATEUR</b></a>
+    <a href="forms/min_long.php" class="list-group-item list-group-item-action">Exemple Validateur de la longueur minimale d'une chaîne de caractère <i>(Harold Trannois)</i></a>
+    <a href="forms/Identique_A.php" class="list-group-item list-group-item-action">Exemple Validateur d'Identicité de chaîne de charactère<i>(Armand Vanderhoeven)</i></a>
+    <a href="forms/avant_date.php" class="list-group-item list-group-item-action">Exemple Validateur d'une date antérieur <i>(Théo RAYMOND)</i></a>
+    <a href="forms/Appartient_A.php" class="list-group-item list-group-item-action">AppartientA (RegEx) <i>(Abdelmouez MEMMI)</i></a>
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

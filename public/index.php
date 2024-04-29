@@ -18,6 +18,7 @@
     <a href="forms/Appartient_A.php" class="list-group-item list-group-item-action">AppartientA (RegEx) <i>(Abdelmouez MEMMI)</i></a>
     <a href="forms/est_une_url.php" class="list-group-item list-group-item-action">Exemple Validateur de Url <i>(Walid Kherroubi)</i></a>
     <a href="forms/Egale_A.php" class="list-group-item list-group-item-action">égale à  <i>(Erwann Deflorenne)</i></a>
+    <a href="forms/inferieur_a.php" class="list-group-item list-group-item-action">Exemple Validateur pour vérifier qu'une valeur est inférieur à une autre valeur <i>(Tom VESLEAU)</i></a>
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

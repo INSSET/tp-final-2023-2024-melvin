@@ -52,7 +52,7 @@ class EstUnReel extends AbstractValidator
     public function verifie($value)
     {
         $this->data = $value;
-        if ($value. is_float()) {
+        if ($value . is_float()) {
             return $this->flag = true;
         }
 

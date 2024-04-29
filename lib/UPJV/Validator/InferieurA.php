@@ -20,7 +20,7 @@ namespace UPJV\Validator;
 /**
  * Vérifie que la taille de la chaine comporte au moins x caractères
  *  - x fixé par la méthode setInfA
- *  - x = 10 par défaut 
+ *  - x = 10 par défaut
  */
 class InferieurA extends AbstractValidator
 {
@@ -38,7 +38,7 @@ class InferieurA extends AbstractValidator
     public function __construct()
     {
         parent::__construct();
-        $this->numberRef= 10;
+        $this->numberRef = 10;
         $this->flag = null;
         $this->data = null;
     }
@@ -46,7 +46,7 @@ class InferieurA extends AbstractValidator
     /**
      * Permet de fixer un autre nombre de référence
      *
-     * @param int $numberRef 
+     * @param int $numberRef
      */
     public function setInfA($numberRef)
     {
@@ -92,7 +92,7 @@ class InferieurA extends AbstractValidator
             return "C PO BIEN CAR NOMBRE ENTRÉ SUPÉRIEUR OU ÉGAL À " . $this->numberRef;
         }
         if ($this->flag === true) {
-            return "C'est goude car votre valeur est inférieur à  ". $this->numberRef."!";
+            return "C'est goude car votre valeur est inférieur à  " . $this->numberRef . "!";
         }
         if ($this->flag === null) {
             return "Nombre de référence pour comparer : " . $this->numberRef;

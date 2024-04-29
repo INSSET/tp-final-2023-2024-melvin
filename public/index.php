@@ -22,6 +22,10 @@
     <a href="forms/avant_date.php" class="list-group-item list-group-item-action">Exemple Validateur d'une date antérieur <i>(Théo RAYMOND)</i></a>
     <a href="forms/Appartient_A.php" class="list-group-item list-group-item-action">AppartientA (RegEx) <i>(Abdelmouez MEMMI)</i></a>
 
+
+
+    <a href="forms/est_une_url.php" class="list-group-item list-group-item-action">Exemple Validateur de Url <i>(Walid Kherroubi)</i></a>
+
 </div>
 
 
